@@ -46,7 +46,11 @@
     background: rgba(0, 0, 0, 0.4);
 }
 
+/* Category Pages */
 
+.sm-category-section{
+    padding: 120px 0;
+}
 
 /* Modal */
 
