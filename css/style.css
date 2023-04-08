@@ -45,7 +45,7 @@
 
 
 /*=============== General Styling ===================*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,300i,400,400i,500,500i,700|Rubik:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,300i,400,400i,500,500i,700|Manrope:300,400,500,700,900');
 
 html, body{
     overflow-x:hidden;
@@ -57,7 +57,7 @@ body{
     position:relative;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: Rubik;
+    font-family: Manrope;
 }
 body,
 p,
@@ -700,7 +700,7 @@ header.minimal-header.dark .search-header form {
 .minimal-menu nav > ul > li.menu-item-has-children > ul > li > a {
     color: #939393;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 14px;
     padding: 3px 0;
     position: relative;
@@ -730,6 +730,11 @@ header.minimal-header.dark .search-header form {
     padding: 10px 0;
     width: 100%;
 }
+
+.minimal-menu nav > ul > li > a:hover {
+    color: #cb967f !important;
+}
+
 .header-gallery {
     float: left;
     width: 100%;
@@ -953,7 +958,7 @@ header.active .side-bar .logo {
 .main-text > span {
     color: #ffffff;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 1.4px;
@@ -970,7 +975,7 @@ header.active .side-bar .logo {
     background: #424242 none repeat scroll 0 0;
     color: #ffffff;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 13px;
     letter-spacing: 2px;
     margin-top: 30px;
@@ -1034,7 +1039,7 @@ header.active .side-bar .logo {
 .title p {
     color: #625757;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1054,7 +1059,7 @@ header.active .side-bar .logo {
 .title2 > h3 {
     color: #625757;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 32px;
     font-weight: 100;
     margin: 0 0 10px;
@@ -1072,7 +1077,7 @@ header.active .side-bar .logo {
 .title2 > p {
     color: #636363;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 14px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -1094,7 +1099,7 @@ header.active .side-bar .logo {
 }
 .service > i {
     color: #b1b1b1;
-    float: left;
+    float: none;
     font-size: 32px;
     width: 100%;
 }
@@ -1102,7 +1107,7 @@ header.active .side-bar .logo {
     color: #323232;
     float: left;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 500;
     letter-spacing: 1px;
     margin-top: 30px;
     text-transform: uppercase;
@@ -1115,7 +1120,6 @@ header.active .side-bar .logo {
     font-weight: 200;
     letter-spacing: 1px;
     margin: 0;
-    padding-right: 20px;
     width: 100%;
 }
 
@@ -1154,7 +1158,7 @@ header.active .side-bar .logo {
 .portfolio-nav > li::before {
     color: #262626;
     content: "-";
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 14px;
     margin-right: -5px;
     position: absolute;
@@ -1164,10 +1168,10 @@ header.active .side-bar .logo {
 .portfolio-nav > li > a {
     color: #262626;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 14px;
-    letter-spacing: 2px;
-    padding: 0 20px;
+    letter-spacing: 1px;
+    padding: 0 12px;
     position: relative;
     text-transform: uppercase;
     z-index: 0;
@@ -1306,7 +1310,7 @@ header.active .side-bar .logo {
 .review > h3 {
     color: #373737;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 20px;
     font-weight: normal;
     letter-spacing: 0.3px;
@@ -1457,6 +1461,8 @@ header.active .side-bar .logo {
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
 
 /* Arrows */
 .slick-prev,
@@ -1761,7 +1767,7 @@ header.classic nav > ul > li.menu-item-has-children > ul > li > a {
     border-bottom: 1px dashed #d3d7d7;
     color: #737373;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 13px;
     padding: 7px 30px;
     width: 100%;
@@ -1881,7 +1887,7 @@ header.minimal-header.active.show-header {
 .hover2-title > p {
     color: #8b8b8b;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 14px;
     font-weight: 300;
     margin: 0;
@@ -1921,7 +1927,7 @@ header.minimal-header.active.show-header {
 }
 .main-text.style2 > span {
     color: #9d9d9d;
-    font-family: RUBIK;
+    font-family: Manrope;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 6px;
@@ -2020,7 +2026,7 @@ header.minimal-header.active.show-header {
 
     color: #989898;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 16px;
     font-weight: normal;
     padding: 16px 30px;
@@ -2193,7 +2199,7 @@ header.minimal-header.active.show-header {
     width: 100%;
 }
 .experties .content p {
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 15px;
     margin: 0;
 }
@@ -2772,7 +2778,7 @@ footer {
 .team > h3 {
     color: #0e0e0e;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 20px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -2782,7 +2788,7 @@ footer {
 .team > span {
     color: #625757;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 13px;
     letter-spacing: 3px;
     margin-top: 6px;
@@ -2831,7 +2837,7 @@ footer {
 .fun-fact > span {
     color: #b0b0b0;
     float: left;
-    font-family: RUBIK;
+    font-family: Manrope;
     font-size: 13px;
     letter-spacing: 1px;
     margin-top: 5px;
@@ -2923,7 +2929,7 @@ footer {
 }
 .contact-social > h3 {
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 20px;
     font-weight: normal;
     margin: 0 0 6px;
@@ -3116,7 +3122,7 @@ footer {
 .page-not-found > span {
     color: #7b7b7b;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 18px;
     font-weight: 100;
     line-height: 30px;
@@ -3138,7 +3144,7 @@ footer {
 .page-not-found h5 {
     color: #575757;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 22px;
     font-weight: 100;
     width: 100%;
@@ -3235,7 +3241,7 @@ footer {
 .countdown-sec li p {
     color: #747474;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 16px;
     letter-spacing: 3px;
     text-align: left;
@@ -3373,7 +3379,7 @@ footer {
 .bottom-line > span {
     color: #868686;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 14px;
     width: 100%;
 }
@@ -3446,9 +3452,8 @@ header.active.classic nav:hover li:hover li {
 header.classic nav > ul > li.menu-item-has-children > ul > li:hover > a {
     background: #f8f8f8 none repeat scroll 0 0;
 }
-.service:hover i {
-    color: tan;
-}
+
+
 .minimal-header.dark .minimal-menu nav > ul > li a:hover {
     color: #ffffff;
 }
@@ -3694,7 +3699,7 @@ blockquote::before {
 blockquote p {
     color: #ffffff;
     float: left;
-    font-family: Rubik;
+    font-family: Manrope;
     font-size: 19px;
     font-style: italic;
     font-weight: 200;

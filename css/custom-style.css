@@ -46,6 +46,107 @@
     background: rgba(0, 0, 0, 0.4);
 }
 
+/* Services Section */
+
+#services-section {
+    text-align: center;
+}
+
+#services-section .block {
+    padding: 160px 20px 100px 20px;
+}
+
+.service {
+    float: left;
+    margin-top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(38 38 38 / 20%);
+}
+
+
+#services-section .title > span {
+    color: #fff;
+}
+
+.service > i {
+    color: #2fceb1;
+    font-size: 32px;
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 40px;
+    width: auto;
+   
+}
+
+.services-card {
+    padding: 0;
+    text-align: center;
+}
+
+
+
+/* Portfolio Section */
+
+.portfolio-sec-btns {
+    margin: auto;
+    text-align: center;
+    padding: 80px 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.primary-btn {
+    background-color: #2fceb1;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px;
+    font-family: Manrope;
+    box-shadow: 0 0 15px rgb(38 38 38 / 20%);
+    transition: all .3s;
+}
+
+.primary-btn:hover {
+    background-color: #21bda1 ;
+    color: #fff;
+}
+
+.secondary-btn-wrapper {
+    color: #2fceb1;
+    padding: 10px;
+    border-bottom: 2px solid #2fceb1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 30px;
+    font-family: Manrope;
+    transition: all .3s;
+}
+
+.secondary-btn-wrapper:hover {
+    border-bottom: 2px solid #21bda1;
+    color: #21bda1;
+}
+
+.secondary-btn-wrapper a {
+    color: #2fceb1;
+}
+
+.secondary-btn-wrapper a:hover {
+    color: #21bda1;
+}
+
+
+
 /* Category Pages */
 
 .sm-category-section{
@@ -91,6 +192,24 @@
 .inner-header h2 {
     text-transform: uppercase;
 }
+
+
+/* Contact page */
+
+.contactpg-block {
+    padding: 60px 0;
+    background-image: url(https://ucarecdn.com/71af7891-328a-4179-be48-982c820fe5b2/contactbg3.jpg);
+    background-size: cover;
+}
+
+
+.block .contactpg-container {
+    background-color: #ffffff;
+    padding: 100px 0;
+    width: 800px;
+    border-radius: 5px;
+}
+
 
 /* (max-width:1140px) */
 
