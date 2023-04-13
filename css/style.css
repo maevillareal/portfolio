@@ -1018,7 +1018,7 @@ header.active .side-bar .logo {
     color: #222222;
     float: left;
     font-family: Poppins;
-    font-size: 32px;
+    font-size: 40px;
     margin: 0;
     width: 100%;
 }
@@ -1041,10 +1041,9 @@ header.active .side-bar .logo {
     float: left;
     font-family: Manrope;
     font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin-top: 6px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 15px;
     width: 100%;
 }
 
@@ -1053,36 +1052,36 @@ header.active .side-bar .logo {
     float: left;
     margin-bottom: 50px;
     width: 100%;
-    padding: 0 60px;
+    padding: 0 50px;
 
 }
 .title2 > h3 {
-    color: #625757;
+    color: #222222;
     float: left;
     font-family: Manrope;
-    font-size: 32px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: 600;
     margin: 0 0 10px;
     width: 100%;
 }
 .title2 > span {
-    color: #625757;
+    color: #222222;
     float: left;
-    font-size: 13px;
-    letter-spacing: 2px;
-    margin-top: 9px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 5px;
     text-transform: uppercase;
     width: 100%;
 }
 .title2 > p {
-    color: #636363;
+    color: #222222;
     float: left;
     font-family: Manrope;
     font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    line-height: 27px;
-    margin: 25px 0 0;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 24px;
+    margin: 16px 0 0;
     width: 100%;
 }
 
@@ -1107,7 +1106,7 @@ header.active .side-bar .logo {
     color: #323232;
     float: left;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
     margin-top: 30px;
     text-transform: uppercase;
@@ -1117,8 +1116,8 @@ header.active .side-bar .logo {
     color: #636363;
     float: left;
     font-size: 15px;
-    font-weight: 200;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
     margin: 0;
     width: 100%;
 }
