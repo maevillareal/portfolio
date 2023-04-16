@@ -60,11 +60,16 @@
 /* About Section */
 
 .about-sec-btns {
-    padding: 0 40px;
+    padding: 0 50px;
     display: flex;
     align-items: baseline;
 }
 
+.about-sec-btns .primary-btn {
+    padding: 20px 20px;
+    letter-spacing: .5px;
+    margin: 10px 0;
+}
 
 /* Services Section */
 
@@ -115,6 +120,10 @@
 
 
 /* Portfolio Section */
+
+.portfolio-section .block {
+    padding: 160px 20px 100px;
+}
 
 .portfolio-sec-btns {
     margin: auto;
@@ -220,20 +229,54 @@
 }
 
 
-/* Contact page */
+/* Contact page & CTA */
 
-.contactpg-block {
-    padding: 60px 0;
-    background-image: url(https://ucarecdn.com/71af7891-328a-4179-be48-982c820fe5b2/contactbg3.jpg);
+.contactpg-block, .ctapg-block {
     background-size: cover;
 }
 
+
+.contactpg-block{
+    background-image: url(https://ucarecdn.com/71af7891-328a-4179-be48-982c820fe5b2/contactbg3.jpg);
+    padding: 60px 0;
+}
 
 .block .contactpg-container {
     background-color: #ffffff;
     padding: 100px 40px;
     width: 800px;
     border-radius: 5px;
+}
+
+.ctapg-block {
+    background-image: url(https://ucarecdn.com/c2893b19-4fde-4703-b1de-19582d5be08d/ctabg.jpg);
+    padding: 140px 0 110px;
+    background-position: center;
+}
+
+
+#cta-section .title{
+    margin-bottom: 0;
+}
+
+#cta-section h2 {
+    color: #2fceb1;
+}
+
+#cta-section .subtitle {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#cta-section .portfolio-sec-btns{
+    padding: 40px 20px;
+}
+
+#cta-section .disclaimer {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    color: #cccccc !important;
 }
 
 
