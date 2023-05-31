@@ -1199,6 +1199,11 @@ header.active .side-bar .logo {
     width: 100%;
     overflow: hidden;
 }
+
+.portfolio-box:hover {
+    transform: scale(0.97);
+}
+
 .portfolio-box > img {
     float: left;
     width: 100%;
@@ -1218,6 +1223,7 @@ header.active .side-bar .logo {
 .portfolio-box:hover .hover-box {
     opacity: 1;
     visibility: visible;
+    transition: 1s;
 }
 .item-title {
     float: left;
