@@ -78,12 +78,16 @@
 }
 
 #services-section .block {
-    padding: 160px 20px 100px 20px;
+    padding: 140px 20px 20px;
 }
 
 
 .services-wrapper {
     display: flex;
+}
+
+.services-wrapper2 {
+    padding-bottom: 60px;
 }
 
 .services-card {
@@ -128,7 +132,7 @@
 .portfolio-sec-btns {
     margin: auto;
     text-align: center;
-    padding: 80px 20px;
+    padding: 0 20px 120px 20px;
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -286,8 +290,7 @@
 @media (max-width:1560px) {
 
     .block .container {
-        width: 100% !important;
-    }
+        width: 100%  }
 
     .block-padding-80 {
         padding: 80px;

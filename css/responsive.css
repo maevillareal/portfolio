@@ -1,9 +1,35 @@
+@media (max-width:1560px) {
+.contactpg-container {
+  padding: 100px 40px !important;
+  width: 800px !important;
+}
+}
+
+@media (max-width: 1440px) {
+  .main-text {margin-left: 110px; }
+  
+  .block {
+    padding: 100px 60px;
+}
+
+.portfolio-section .block {
+  padding: 140px 100px 100px;
+}
+
+
+#services-section .block {
+  padding: 100px;
+}
+
+  }
+
+
 @media (max-width: 1366px) {
 .main-text {margin-left: 110px; }
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px){
 .theme-layout.side-header .main-text {padding-left: 40px; }
 .block .container {padding: 0 15px; }
 .text-block {padding: 90px 20px; }
@@ -19,6 +45,61 @@
 .contact-us {padding: 70px 35px; }
 
 }
+
+
+@media (max-width: 1240px)  {
+
+  
+  #services-section .block {
+    padding: 100px 60px 40px;
+}
+
+.title h2 {
+  font-size: 30px !important;
+}
+
+#portfolio-masonry {
+  height: 1400px !important;
+}
+
+.portfolio-section .block {
+  padding: 120px 20px 40px;
+}
+
+
+.ctapg-block {
+  padding: 140px 80px 110px;
+}
+
+div#portfolio-masonry {
+  top: 0;
+}
+
+.about-col1 {
+  width: 70%;
+}
+
+
+.about-col2 {
+  width: 30%;
+  padding: 0;
+}
+
+.title2 {
+  padding: 0 0 0 50px;
+}
+
+#services-section .portfolio-sec-btns {
+  padding: 0 20px 80px 20px !important;
+}
+
+#portfolio-section .portfolio-sec-btns {
+  padding: 30px 20px 120px 20px!important;
+}
+
+
+}
+
 
 @media (max-width: 980px) {
 blockquote {padding: 50px; }
@@ -48,13 +129,13 @@ header.minimal-header.active.show-header {width: 0; }
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 .countdown-sec > ul > li > span {font-size: 40px; }
 .countdown-sec li p {font-size: 13px; }
 .countdown-sec > ul > li {margin: 0; }
 .fun-fact-sec {display: inherit; }
 .fun-fact {display: inline-block; float: left; margin-bottom: 60px; width: 50%; }
-.title > span {font-size: 50px; }
+.title > span {font-size: 70px; }
 .title2 > p {padding: 0; }
 .mockup .fancy-btn {margin-top: 40px; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; transform: none; }
 .model-sec {text-align: center; }
@@ -62,6 +143,60 @@ header.minimal-header.active.show-header {width: 0; }
 .model-sec li::before {display: none; }
 .inner-header > h2 {font-size: 29px; }
 .slider-title1 {font-size: 30px !important; }
+
+#about-section .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-col1 {
+  width: 100%;
+  order: 2;
+}
+
+.about-col2 {
+  width: 100%;
+  padding: 0 50px 20px;
+}
+
+.myimg > img {
+  width: 40%;
+}
+
+.ctapg-block {
+  padding: 80px 80px 60px;
+}
+
+.portfolio-sec .col-sm-6 {
+  width: 100%;
+}
+
+.portfolio-sec-btns {
+  padding-top: 20px;
+}
+
+/* Header */
+
+.side-bar .logo {
+  display: none;
+}
+.side-bar, .bottom-text {
+ height: auto;
+  left: 0;
+  top: 0;
+  left: 20px;
+  padding: 0px 30px 80px;
+}
+
+.open-minimal-menu {
+  margin-left: -18px;
+  margin-top: 0;
+
+}
+
+header.active .minimal-menu {
+  left: 0;
+}
 
 }
 
@@ -91,10 +226,85 @@ header.minimal-header.active.show-header {width: 0; }
 .countdown-sec > ul > li {width: 25%; }
 .coming-sson-sec h2 {font-size: 37px; }
 .slider-title1 {font-size: 25px !important; }
-.side-bar {-webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -ms-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; left: -61px; }
-header.minimal-header:hover .side-bar {left: 0; }
-header.minimal-header.active .side-bar {left: 0; }
+.side-bar {-webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -ms-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s;  }
+
 .theme-layout.side-header {padding: 0; }
 .main-text {margin-left: 10px; }
+
+
+.block {
+  padding: 40px 20px !important;
+}
+
+.title2 {
+  padding: 0;
+}
+
+.myimg > img {
+  width: 100%;
+}
+.about-sec-btns, .portfolio-sec-btns {
+  padding: 0 20px;
+  display: block;
+}
+
+.secondary-btn-wrapper {
+  margin: 40px;
+}
+
+
+
+#services-section .block {
+  padding: 80px 20px !important;
+}
+
+
+.title > span {
+  font-size: 60px;
+}
+
+
+.services-wrapper {
+  display: block;
+}
+
+.services-card {
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 40px;
+}
+
+.service, .service > h3, .service > p {
+  float: none;
+}
+
+#services-section .portfolio-sec-btns {
+  padding: 0 !important;
+}
+
+.portfolio-section {
+  padding: 60px 0 40px 0;
+}
+
+
+
+.cta-btn {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 20px;
+}
+
+#cta-section h2 {
+  font-size: 24px !important;
+}
+
+#cta-section .subtitle {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.contactpg-container {
+  padding: 60px 20px !important;
+}
 
 }
